@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  html,
+  body {
+    font-size: 15px;
+    scrollbar-gutter: stable both-edges;
+  }
+}
